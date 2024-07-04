@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме Виктора Кытороги</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .main h1 {
+            text-align: center;
+            color: #333;
+        }
+        .main .section {
+            margin-bottom: 40px;
+        }
+        .main .section h2 {
+            border-bottom: #77aaff 3px solid;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Резюме Виктора Кытороги</h1>
+        </div>
+    </header>
+    <div class="container main">
+        <div class="section">
+            <h2>Контактные данные</h2>
+            <p>Email: <a href="mailto:victorkytoroga@gmail.com">victorkytoroga@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/victorkytoroga" target="_blank">linkedin.com/in/victorkytoroga</a></p>
+            <p>Telegram: <a href="https://t.me/TheMrGrench" target="_blank">@TheMrGrench</a></p>
+        </div>
+        <div class="section">
+            <h2>Навыки</h2>
+            <ul>
+                <li>Python: Pandas, NumPy, Matplotlib, Plotly, Seaborn, SciPy, Scikit-learn, Statsmodels</li>
+                <li>SQL: PostgreSQL, ClickHouse, BigQuery</li>
+                <li>Визуализация: Tableau, Redash, Superset, Power BI</li>
+                <li>Статистика: A/B тестирование, ANOVA, Логистическая и линейная регрессия</li>
+                <li>Другие: Google Sheets, Excel, Airflow, Git, Jupyter Notebook, Dataspell, Docker</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Образование</h2>
+            <p>Бакалавр международной экономики, Национальный экономический университет Одессы, Одесса</p>
+        </div>
+        <div class="section">
+            <h2>Опыт работы</h2>
+            <h3>Аналитик-Ментор, Go IT</h3>
+            <ul>
+                <li>Опытный аналитик данных с более чем 2 годами опыта работы, владение SQL, Python и Excel. Умение анализировать данные, разрабатывать отчеты и визуализировать информацию для бизнес-пользователей. Отличные аналитические способности и знание статистических методов и машинного обучения.</li>
+                <li>Ad-hoc запросы</li>
+                <li>Создание отчетности по запросам заказчика</li>
+                <li>Автоматизация отчетности с помощью Python</li>
+                <li>Поиск узких мест в бизнес-процессах</li>
+                <li>Перенос аналитики воронки и расчет высокоуровневых продуктовых метрик из Google Analytics в Tableau</li>
+                <li>Построение дашбордов, отображающих ключевые метрики продукта (расчет этапов воронки, расчет метрик CR, CTR, CPC, CPL, CAC)</li>
+                <li>Расчет ROI, ROMI, MRR, ARPU, ARRPU, LTV</li>
+                <li>Реализация проекта по контролю оттока покупателей, что позволило снизить Churn Rate на 5%</li>
+                <li>Проведение обучения более чем 700 студентам, поддерживая исключительно высокий уровень удовлетворенности студентов (не менее 9.5 из 10)</li>
+                <li>Проведение онлайн трансляций с индивидуальным подходом к решению проблем студентов в обучении аналитике данных</li>
+            </ul>
+            <h3>Аналітик (Економіст), Пік-Строй</h3>
+            <ul>
+                <li>Ответственность за финансовый учет и отчетность в строительной компании</li>
+                <li>Управление финансовыми операциями, включая контроль платежей и расчетов с поставщиками и подрядчиками</li>
+                <li>Взаимодействие с банками и финансовыми учреждениями, управление корпоративными банковскими счетами и подготовка соответствующих финансовых документов</li>
+                <li>Успешный запуск нового завода в 2021 году и достижение его прибыльности к концу года</li>
+                <li>Контроль бизнес-деятельности завода по производству бетонных смесей, включая управление запасами, закупки и логистику</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Достижения</h2>
+            <h3>Kaggle - Прогнозирование погоды</h3>
+            <ul>
+                <li>Разработал модель прогнозирования погоды на основе линейной регрессии, используя данные из открытого источника</li>
+                <li>Получил опыт в обработке данных, анализе и разработке моделей машинного обучения на Python</li>
+                <li>Улучшил навыки работы с библиотеками Pandas, Numpy и Scikit-learn для решения задачи прогнозирования погоды</li>
+            </ul>
+            <h3>Курс "Симулятор SQL" для компании "Карпов Курсы"</h3>
+            <ul>
+                <li>Участвовал в разработке курса, значительно улучшив систему проверки задач, показав высокий уровень владения Python и SQL</li>
+                <li>Благодаря моей работе студенты получают более детальный и адаптивный обратный связь при решении задач</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Курсы</h2>
+            <ul>
+                <li>Simulative</li>
+                <li>Провел RFM-анализ клиентской базы с использованием Pandas в Python</li>
+                <ul>
+                    <li>Подготовка данных: сбор, очистка, структурирование</li>
+                    <li>Расчет метрик: Recency, Frequency, Monetary</li>
+                    <li>Сегментация клиентов: группировка по значениям RFM</li>
+                    <li>Анализ: рекомендации для повышения вовлеченности</li>
+                    <li>Визуализация: создание графиков и диаграмм</li>
+                </ul>
+                <li>Повышение квалификации:</li>
+                <ul>
+                    <li>Yandex Practicum: Аналитик данных</li>
+                    <li>Karpov.Courses: Симулятор A/B, Аналитик данных, Инженер данных</li>
+                    <li>Docker</li>
+                    <li>HSE: Теория вероятностей и статистика</li>
+                    <li>Матемаркетинг</li>
+                    <li>Интенсив по A/B с EXPF</li>
+                    <li>Марафон Data.Yoga по Tableau</li>
+                    <li>DataCamp</li>
+                </ul>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
